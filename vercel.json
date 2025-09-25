@@ -2,10 +2,12 @@
   "rewrites": [
     {
       "source": "/api/proxy/(.*)",
-      "destination": "/api/index.js"
+      "destination": "/api/index.js",
+      "type": "module"  // <-- Bu satırı ekleyin
     }
   ]
 }
+
 
 
 
