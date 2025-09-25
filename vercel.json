@@ -3,10 +3,11 @@
     {
       "source": "/api/proxy/(.*)",
       "destination": "/api/index.js",
-      "type": "module"  // <-- Bu satırı ekleyin
+      "type": "module" 
     }
   ]
 }
+
 
 
 
