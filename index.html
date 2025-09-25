@@ -835,7 +835,7 @@ function playStream(url, playerId) {
     // Kendi Vercel proxy URL'nizi buraya ekleyin
     // Buradaki örnek adresi kendi Vercel projenizin adresiyle DEĞİŞTİRİN
     const vercelProxyUrl = "https://m3u-proxy-rho-two.vercel.app";
-    const proxiedUrl = `${vercelProxyUrl}/API/proxy/${encodeURIComponent(url)}`;
+    const proxiedUrl = `${vercelProxyUrl}/api/proxy/${encodeURIComponent(url)}`;
     
     if (Hls.isSupported()) {
         const hls = new Hls();
@@ -929,3 +929,4 @@ function closePlayer(playerId) {
 
 </body>
 </html>
+
