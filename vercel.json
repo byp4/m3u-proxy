@@ -2,10 +2,10 @@
   "rewrites": [
     {
       "source": "/api/proxy/(.*)",
-      "destination": "/api/index.js",
-      "type": "module"
+      "destination": "/api/index.js"
     }
   ]
 }
+
 
 
